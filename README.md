@@ -2,10 +2,6 @@
 
 
 
-![FR-MSCL](https://github.com/bo-work/FR-MSLC/blob/main/overall2.png)
-
-
-
 ## Description: 
 
 An official PyTorch implementation of the "FR-MSLC: Malicious Traffic Detection from Noisy Label and Imbalanced Data" paper.
