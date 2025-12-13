@@ -50,8 +50,8 @@ Before training the models please:
 
 1. Put the datasets in the `/data` . Origian dataset is [ Improved-CICIDS-2017](https://intrusion-detection.distrinet-research.be/CNS2022/CICIDS2017.html) and [Malicious-TLS-2023](https://github.com/gcx-Yuan/Malicious_TLS).
 2. Pre_processing with `pyhton data_process.py`. Or download preprocessed data [here](https://www.unb.ca/cic/datasets/ids-2018.html) and put them in the `/data`.
-3. Feature representation leanrn with `python FRlenrning.py`. Or download preprocessed data [here](https://www.unb.ca/cic/datasets/ids-2018.html) and put them in the `./results/deepre`.
-4. Pretrained detection model with `python frmslc_mlp_pre.py` and just comment corrsponing dataset info for different dataset.  Or download pretrained model [here]() and put them in the `./results/warmup`.
+3. Feature representation leanrn with `python FRlenrning.py`. Or download preprocessed data [here](https://www.unb.ca/cic/datasets/ids-2018.html) and put them in the `./results/models/deepre`.
+4. Pretrained detection model with `python frmslc_mlp_pre.py` and just comment corrsponing dataset info for different dataset.  Or download pretrained model [here]() and put them in the `./results/models/warmup`.
 5. Train with `python frmslc_mlp.py`, and you can change every parameters in config_mlp.py
 
 
